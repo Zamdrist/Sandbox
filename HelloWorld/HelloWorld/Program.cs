@@ -12,6 +12,13 @@ namespace HelloWorld
         {
             Console.WriteLine("Hello World");
             Console.ReadLine();
+            var y = AddMe(1, 2);
+        }
+
+        private static int AddMe(int x, int y)
+        {
+            return x + y;
+
         }
     }
 }
